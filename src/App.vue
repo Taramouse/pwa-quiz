@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app id="app">
     <toolbar
       :login="login"
       :logout="logout"
@@ -42,4 +42,9 @@ export default {
 </script>
 
 <style>
+#app {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 </style>
